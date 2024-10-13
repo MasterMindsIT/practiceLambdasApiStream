@@ -11,4 +11,16 @@ Los siguientes se usan en concurrencia junto a Future<br>
 UnaryOperator<T>: Recibe un valor, lo procesa y devuelve un resultado del mismo tipo.<br>
 Callable<T>: No recibe valores, pero retorna un resultado y puede lanzar una excepción.<br>
 Runnable: No recibe valores y no retorna nada, solo ejecuta una tarea.<br>
-
+Api Stream:<br>
+filter(): Filtra los elementos que cumplen una condición.<br>
+map(): Transforma los elementos aplicando una función.<br>
+sorted(): Ordena los elementos del stream.<br>
+forEach(): Aplica una acción a cada elemento.<br>
+reduce(): Combina todos los elementos en un solo valor.<br>
+collect(): Recoge los elementos en una colección.<br>
+distinct(): Elimina los elementos duplicados.<br>
+limit(): Limita el número de elementos procesados.<br>
+skip(): Omite un número específico de elementos.<br>
+anyMatch(): Verifica si algún elemento cumple una condición.<br>
+allMatch(): Verifica si todos los elementos cumplen una condición.<br>
+noneMatch(): Verifica si ningún elemento cumple una condición.<br>
